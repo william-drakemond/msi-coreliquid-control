@@ -48,7 +48,7 @@ MODE_COLORS = {"silent": "#4fc3f7", "balance": "#00d4aa", "game": "#f5a623", "sm
 
 # Preset speeds per mode: {key: duty%}  (radfans, waterblock, pump)
 MODE_PRESETS = {
-    "silent":  {"radfans": 60,  "waterblock": 60,  "pump": 60},
+    "silent":  {"radfans": 50,  "waterblock": 60,  "pump": 60},
     "balance": {"radfans": 70,  "waterblock": 70,  "pump": 70},
     "game":    {"radfans": 90,  "waterblock": 90,  "pump": 100},
     "smart":   {"radfans": 80,  "waterblock": 80,  "pump": 75},
